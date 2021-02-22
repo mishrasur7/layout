@@ -1,0 +1,46 @@
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    border: 1em solid green;
+    margin: 1.6em 6.4em 1.6em 6.4em; 
+    padding: 0.8em 1.6em 0.8em 1.6em;
+}
+
+header h1 {
+    border: 0.5em dotted blue;
+    margin: 0.4em;  
+    padding: 0.8em 1.6em 0.8em 1.6em;
+}
+
+header ul {
+    word-spacing: 80px;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    background-color: pink;
+}
+
+header nav ul li a:hover {
+    color: yellow; 
+}
+
+main, footer {
+    margin: 1.6em 6.4em 1.6em 6.4em; 
+    text-align: justify;
+}
+
+section, article, figure, aside {
+    border: 0.1em double pink;
+}
+
+footer {
+    border: 0.3em dashed skyblue;
+}
+
+footer a:hover {
+    color: greenyellow; 
+}
