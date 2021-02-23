@@ -1,0 +1,73 @@
+header {
+    margin: 1.6em 6.4em 1.6em 6.4em;
+    text-align: center;
+    background-color: lightgray;
+
+}
+header h1 {
+    letter-spacing: 0.5em;
+}
+
+header h1:hover {
+    color: red; 
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 5em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.3em;
+}
+header nav ul li a:hover {
+    color: lightgreen; 
+}
+
+main, footer {
+    margin: 1.6em 6.4em 1.6em 6.4em;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1.5em;
+    column-gap: 1.5em;
+}
+
+ .right {
+    float: right;
+    margin: 0.5em;
+    width: 100px;
+    height: 100px;
+}
+
+main div :nth-child(even) {
+    background-color: lightgray;
+
+}
+
+footer p a:hover {
+    color: lime;
+}
+
+.december {
+    display: grid; 
+    grid-template-columns: repeat(3, 2fr);
+    row-gap: 1em;
+    column-gap: 1em;
+}
+
+.december div {
+    border: 0.1em solid blue;
+    padding: 1em;
+}
+
+main div section div :nth-child(even) {
+    background-color: white;
+}
