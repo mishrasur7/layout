@@ -1,0 +1,103 @@
+body {
+    background-color: lightyellow; 
+}
+
+header, h1, main, aside, section, footer {
+    margin: 1.6em 6.4em 1.6em 6.3em;
+}
+
+header h1 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+header nav li {
+    display: inline;
+}
+header nav li a {
+    text-decoration: none;
+    margin-left: 17em;
+    font-size: 1.2em;
+}
+
+header nav li a:hover {
+    color: red;
+}
+
+.flex-container {
+    display: flex;
+   /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-between;
+    margin: auto;
+}
+
+.section-a {
+    padding: 1em;
+    flex: 1;
+}
+
+.section-b {
+    padding: 1em;
+    flex: 2;
+}
+.section-c {
+    padding: 1em;
+    flex: 1;
+}
+.section-d {
+    padding: 1em;
+    flex: 1;
+}
+.section-e {
+    padding: 1em;
+    flex: 1;
+}
+.section-f {
+    padding: 1em;
+    flex: 1;
+}
+
+.flex-item {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.section-item1 {
+    border: 0.2em dotted green;
+    padding: 1em;
+    flex: 2;
+}
+
+.section-item2 {
+    border: 0.2em dotted red;
+    padding: 1em;
+    flex: 1;
+
+}
+.section-item3 {
+    border: 0.2em dotted black;
+    padding: 1em;
+    flex: 1;
+
+}
+.section-item4 {
+    border: 0.2em dotted blue;
+    padding: 1em;
+    flex: 1;
+
+}
+.section-item5 {
+    border: 0.2em dotted purple;
+    padding: 1em;
+    flex: 1;
+}
